@@ -1,0 +1,17 @@
+.BirthdayCard__card {
+    width: 40vw;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 4px 8px 6px -1px #b0a5a5;
+    background: white;
+}
+
+.BirthdayCard__button {
+    height: 2.5em;
+    width: 35vw;
+    font-size: 1em;
+    box-shadow: 4px 8px 6px -1px #b0a5a5;
+    border: 1px #ffdfdf solid;
+    margin-bottom: 5%;
+}
