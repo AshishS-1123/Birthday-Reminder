@@ -1,0 +1,35 @@
+.List__item_card {
+    background: purple;
+    display: flex;
+    flex-direction: row;
+    margin: 15px 10px;
+    box-shadow: 2px 7px 5px 0px #ee27ee;
+    border: 2px #1c001c00 solid;
+    color: white;
+}
+
+.List__image {
+    width: 10vw;
+    height: 10vw;
+    margin: 10px 5px;
+    border-radius: 50%;
+}
+
+.List__data {
+    width: 30vw;
+    margin: 0px;
+}
+
+.List__age {
+    margin: 0px;
+    text-align: left;
+    padding-left: 10%;
+    color: lightgrey
+}
+.List__name {
+    font-size: 1.5em;
+    margin: 0px;
+    padding-top: 3vw;
+    padding-left: 5%;
+    text-align: left;
+}
