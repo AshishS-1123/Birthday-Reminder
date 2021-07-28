@@ -7,11 +7,18 @@
     background: white;
 }
 
+.BirthdayCard__card > h1 {
+    text-align: left;
+    margin-left: 2vw;
+}
+
 .BirthdayCard__button {
     height: 2.5em;
     width: 35vw;
     font-size: 1em;
-    box-shadow: 4px 8px 6px -1px #b0a5a5;
-    border: 1px #ffdfdf solid;
+    box-shadow: 4px 8px 8px -1px #ee27ee;
+    border: 2px #1c001c00 solid;
     margin-bottom: 5%;
+    background: purple;
+    color: white;
 }
