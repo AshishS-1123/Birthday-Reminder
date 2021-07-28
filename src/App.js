@@ -1,9 +1,11 @@
-    import './App.css';
+import BirthdayCard from "./components/BirthdayCard"
+
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-    Hello 
+        <BirthdayCard />
     </div>
   );
 }
