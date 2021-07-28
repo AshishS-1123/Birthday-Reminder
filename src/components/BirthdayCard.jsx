@@ -1,17 +1,19 @@
-import React from "react"
+import React, { useState } from "react"
 import List from "./List"
+import ListItems from "../data/data.js"
 import "./BirthdayCard.css"
 
 function BirthdayCard() {
+    const [listItems, setListItems] = useState(ListItems)
 
     const clearList = () => {
-        console.log("clear")
+        setListItems([])
     }
 
     return (
         <div className="BirthdayCard__card">
-            <h1>0 birthdays today</h1>
-            <List />
+            <h1>{listItems.length} birthdays today</h1>
+            <List items={listItems}/>
             <button
                 onClick={clearList}
                 className="BirthdayCard__button">
